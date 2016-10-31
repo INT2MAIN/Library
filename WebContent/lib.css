@@ -1,0 +1,95 @@
+body{
+  background-color:rgb(56, 175, 175);
+    background-image: url("image/book.png") ;
+    background-position-y: -100px;
+    background-position-x: 15px;
+}
+.text1{
+    width:100%;
+    height:30px;
+}
+.text2{
+    position: relative;
+    right: -60px;
+    top: 50px;
+}
+a{
+    text-decoration: none;
+    border: 2px solid #009999;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color:#000;;
+    margin-left: 30px;
+
+    transition: scale 5s;
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+    font-family: My2;
+    font-size:18px;
+}
+a:hover{
+    background-color: rgb(56, 175, 175);
+    color: #fff;
+    border-color: rgb(56, 175, 175);
+        transform: scale(1.2);
+}
+.text3{
+    color:#fff;
+    font-family: 'My';
+    font-size:32px;
+    position: absolute;
+    top: 10px;
+    left: 390px;
+
+}
+.text4{
+    position: absolute;
+    top: 250px;
+    left: 430px;
+}
+.text5{
+    width: 410px;
+    /*border: 1px solid #fff;*/
+    height: 300px;
+}
+span{
+    display: inline-block;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color:#000;
+    padding: 10px;
+    position: relative;
+    left: 35px;
+}
+input{
+
+    background-color: rgba(207, 78, 65, 0.42);
+    color: #fff;
+    width: 280px;
+    height: 35px;
+    border:none;
+    border-bottom:2px solid  #d55447;
+    font-size:14px;
+}
+input:hover{
+
+}
+@font-face {
+    font-family: 'MyNew';
+    src: url('image/ITCBLKAD.TTF');
+}
+@font-face {
+    font-family: 'My';
+    src: url('./Archive.otf');
+}
+@font-face {
+    font-family: 'My2';
+    src: url('./Wilderness.ttf');
+}
+
+img{
+    width: 25px;
+    position: relative;
+    top: 12px;
+}
