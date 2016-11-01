@@ -5,8 +5,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>图书管理系统</title>
-    <link rel="stylesheet" href="./lib.css">
-    <script type="text/javascript" src="./lib.js">
+    <link rel="stylesheet" href="./Library.css">
+    <script type="text/javascript" src="./Library.js">
     </script>
 </head>
 <body>
@@ -22,12 +22,12 @@
 <div class="text4">
     <form action="#" method="post" class="text5">
 
-       <span> <img src="./image\user3.png"> <input type="text" value="username" onfocus="my()" onblur="my2()" id="a"/></span>
-        <span><img src="./image\pws.png"> <input type="text" value="password" id="a1" onfocus="my1()" onblur="my3()"/></span>
+       <span id="w"> <img src="./image\user3.png"> <input type="text" name="username" value="username" onfocus="my()" onblur="my2()" id="a"/><span id="s"></span></span>
+        <span id="w1"><img src="./image\pws.png"> <input type="text" name="password" value="password" id="a1" onfocus="my1()" onblur="my3()"/><span id="s1"></span></span>
         <div class="text1">
             <div class="text2">
-                <a class="one" href="Library_index.html">Login</a>
-                <a class="two">Sign</a>
+                <button class="one" onclick="">Login</button>
+
             </div>
         </div>
     </form>
